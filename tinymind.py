@@ -1,8 +1,9 @@
+# coding:utf-8
 from tinyenv.flags import flags
 
-# ËùÓĞÔÚ½éÃæÖĞİ”ÈëµÄ…¢”µ¶¼•ş±»×Ô„Ó¼Óİd¡£
+# æ‰€æœ‰åœ¨ä»‹é¢ä¸­è¼¸å…¥çš„åƒæ•¸éƒ½æœƒè¢«è‡ªå‹•åŠ è¼‰ã€‚
 FLAGS = flags()
-# Ê¹ÓÃ…¢”µµÄ·½·¨ºÍÔ­íÏàÍ¬¡£
+# ä½¿ç”¨åƒæ•¸çš„æ–¹æ³•å’ŒåŸä¾†ç›¸åŒã€‚
 print(FLAGS.iterations)  # 1000
 print(FLAGS.name)
 for i in range(100):
